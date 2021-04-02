@@ -1,29 +1,33 @@
 <%-- 
-    Document   : login
-    Created on : 02/04/2021, 7:17:21 PM
-    Author     : lilil
+    Document   : Login
+    Created on : 29/03/2021, 6:40:44 PM
+    Author     : Dean
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
-
 <!DOCTYPE html>
 <html>
+    
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="css/maincss.css">
-        <title>Login Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" rossorigin="anonymous">
+        <link href="css/Adjustment.css" rel="stylesheet">
+        <title>Sign In</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        
-        <form action="welcome.jsp" method="post">
-      <table>
-          <tr><td>Email:</td><td><input type="text" placeholder="Enter Email" name = "email" required= "true"></td></tr>
-          <tr><td>Password:</td><td><input type="password" placeholder="Enter password" name = "password" required= "true"></td></tr>
-      </table>
-  <input type="submit" value="login">
-  </form>
-        
-    </body>
+        <div class = "mb-4">
+            <h1 class="centre">Sign In</h1>
+        </div>
+        <div class="mb-3">
+            <form action="welcome.jsp" method="POST">
+                
+                <!--<label for="Username">Username</label><br>-->
+                <input class="mb-2 form-control" type = "text" id="User" name="Username" placeholder="Username"><br>
+                
+                <!--<label for="Password">Password</label><br>-->
+                <input class="mb-2 form-control" type = "Password" id="Password" name="Password" placeholder="Password"><br>
+                
+                <input class="mb-2 btn-primary btn" type="submit">
+            </form>
+        </div>
 </html>
