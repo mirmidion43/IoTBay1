@@ -10,6 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/maincss.css">
         <title>JSP Page</title>
     </head>
     <body>
@@ -18,7 +19,7 @@
             User user = (User)session.getAttribute("user");
         %>
         
-        <h1>Diary Keeper</h1>
+        <h1>Main page</h1>
         
         <% if(user == null){ %>
         <a>You are not logged in</a>

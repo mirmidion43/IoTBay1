@@ -14,7 +14,7 @@ public class User {
     private String name; 
     private String password; 
     private String gender; 
-    private String favouriteColour; 
+    private Iterable<User> users;
     
    public User(String email, String name,String password, String gender)
 {
@@ -23,8 +23,16 @@ public class User {
     this.password = password;
     this.gender = gender; 
 
-} 
-
+}    
+   public User getUser(String email) {
+        for (User u : this.users) {
+            if (u.getEmail() == email) {
+                return u;
+            }
+        }
+        return null;
+    }
+  
     public String getEmail() {
         return email;
     }

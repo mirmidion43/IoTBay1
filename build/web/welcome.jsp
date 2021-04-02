@@ -10,17 +10,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="css/maincss.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
     <body>
+       
         
         <%
             String name = request.getParameter("name");
             String email = request.getParameter("email");
             String password = request.getParameter("password");
             String gender = request.getParameter("gender");
-            
             String tos = request.getParameter("tos");
             
         %>

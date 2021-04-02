@@ -4,11 +4,13 @@
     Author     : lilil
 --%>
 
+<%@page import="uts.isd.model.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" href="css/maincss.css" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/maincss.css">
         <title>Registration Page</title>
     </head>
     <body>
@@ -27,9 +29,10 @@
            </td></tr>
           <tr><td>Terms Of Service:</td><td><input type="checkbox" id="tos" name="tos" value="tos"></td></tr>
       </table>
-   <input type="hidden" id="submitted" name="submitted" value="yes">
   <input type="submit" value="register">
   </form>
+        
+        
     </body>
 </html>
 

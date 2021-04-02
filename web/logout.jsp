@@ -15,12 +15,14 @@
         %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/maincss.css">
         <title>JSP Page</title>
     </head>
     <body>
           <div>
               
-            <a>You have been logged out. Click </a>
+            <p>You have been logged out.</p>
+            <a> Click</a>
             <a class="button" href="main.jsp">here</a>
             <a> to proceed to the main page</a>
         </div>
