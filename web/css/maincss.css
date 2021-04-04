@@ -10,15 +10,8 @@ and open the template in the editor.
 
 h1{
     font-family: Ariel, Helvetica, sans-serif;
-    color: #8DB6CD;
+    color: #933680;
     font-weight: bold;
-}
-
-h1{
-    font-family: Ariel, Helvetica, sans-serif;
-    color: #8DB6CD;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 p{
@@ -38,30 +31,17 @@ p{
       font-size: 16px;
   }
   
-  .centre
-{
-    text-align: center;
-    border: 5px;
-}
-
-  th{
-      font-family: Ariel, Helvetica, sans-serif;
-      color: #8DB6CD;
-      font-weight: bold;
-      font-size: 16px;
-      padding: 5px;
-  }
-  
   td{
       font-family: Ariel, Helvetica, sans-serif;
-      color: #282e30;
+      color: #933680;
+      font-weight: bold;
       font-size: 16px;
       padding: 5px;
   }
   
   input{
       font-family: Ariel, Helvetica, sans-serif;
-      color: #71a2bd;
+      color: #006633;
       width: 140%;
       height: 30px;
       display: inline-block;
